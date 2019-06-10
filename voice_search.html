@@ -1,0 +1,117 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>my_1MLines</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/jumbotron/">
+
+    <!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+
+
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/A09083E5-0456-6942-BAA4-62C065A38874/main.js" charset="UTF-8"></script><style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      .speech {border: 1px solid #DDD; width: 300px; padding: 0; margin: 0}
+      .speech input {border: 0; width: 240px; display: inline-block; height: 30px;}
+      .speech img {float: right; width: 25px }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+  </head>
+  <body>
+  
+<main role="main">
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron" style="background-image: url(https://i.pinimg.com/originals/11/d3/15/11d31543d2141800d56c09d93e9c44e3.jpg)">
+    <div class="container" >
+      <h1 class="display-3" style="text-align: center;">Hello, world!</h1>
+      <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+      <form id="labnol" method="get" action="https://www.google.com/search">
+      <div class="speech" style="float: left; margin-left: 400px;">
+         <input type="text" name="q" id="transcript" placeholder="Speak" />
+             <img onclick="startDictation()" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAflBMVEX///8zMzMnJyeSkpKhoaELCwstLS0ZGRkwMDBnZ2ff398oKCgkJCQgICAcHBxfX18WFhb09PTDw8OGhoavr69ZWVns7OxAQEDZ2dm9vb04ODhWVlYAAAC1tbWQkJBiYmLPz89ycnJ5eXmjo6PJycnu7u5MTExISEiBgYF1dXVBHw+VAAAF10lEQVR4nO2d63baOhCFYwOyYslXzMXQgIE0ad7/BQ+0J83oYgMxILlrfz9R7DUbjaSR0EyengAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfIem2uyybLsfv8SuTbkH9TZKZciOCJlEbLp0bdCNGfOEBQQu8nXj2qgbUkWSBzos385dG3Yjiiw15P3RGFWubbsJMRN2gUfyqWvrbkATmQ76RbJzbV9vlnmXwH9A4jztFhgE6ci1jf14Z2cEHsfiq2sj+zBOzgoMOHNtZQ/mkamHG24rN67t/D57bZ1gSbpYL9JEc91osCv/fKJ2X5SVxfHjoszUvg0H24mjUBEo678ttRrFJQ6N7MWKyuAh9cU4oW1p6czGXixzZbA1SuMrdVTxy42FfTlIKkKPQOksxBdODOyNMpPm+nwZ0x5OCycW9mVBhhpfdzZHw9zx004ynPTp6YOsiskwpxq6GoZmfL0hTpy8OLCvP2cU0tVSHhzY159rFI4d2NcfKIRC/4FCKPQfKIRC/4FCKPQfKIRC/4FCKPQfKIRC/4FCKPQfKIRC/4FCKPQfKIRC/4FCKPQfKIRC/4FCKPSBIiYYV0R7KVRefSfzL2D5I/rLD+MCZXSFQuPmXklffSfzLyAmIswrovQiu+V+6bTz9mVJsm0cXuWnCqWRLbklV2TZs/Hwc+cN2opcEpd3Mv8C5iQ51BxK9IqspR9oSlRuDLXxlw/z1Z3Mv4CCWGn6YU01JHoX004KzOQu4sPMvCP+OMTXUGOZ3qjkdfFAa2VklJrPPs2+fNhpNsaajCXR2RoINVn0mbqw5RI06WHLPPw46HyYGhloiiMGyZ407ZSmifEo7f+k1lsfCNVgzoeFkhYUhKvPbNGSK2l7bGu8mI7hyGWNiYZ81cLMsdsoPRXwdDGt6mq60JKD88Z4kjqHdJlQUxAJluSlItQSRrmQiRTah7a5kiTUsNkDhLRDpjzLovZUmWmyJhPzOZoU5XSiOS7MdM6zbBC27fUUPkksCmjMmjZ3V9HFknSSLfYo2Ll8fOt6HpCn8ruL6IYOqtSSWa8mi1oEMss8UpJokH3cX0QnG+JP1jkh7qyqwIQtj/uNjG7nGbRKomRuSyOMZXtdBbGyCWzIOz2oR/BG40vrxN5anyaIzD3VCSUWdJ/J/kJ3EJHdpaooNNQd596WrMOafiGWpeThUIVtPlVMc62OEpfR1B6rFLJ71/F46JIYhG07nfl4EUnxe+3gTCTR4tAWi30oCdLNnay+BjU066jFEle/1kEYhqts2lGwraZTl+OI7ZOD4qc9E8/nyn7EOjk7gEYgAXvr9S6aw67vmt1RKvF1aF8CLmOmxLH+lHWZKWu63J9/ooVn9VTAnxJSP9ViSd+u36UKZO83NbIfL+o+UJrHEhdQrNW4wIfF/oudug8U7z+vfkW8Ut+R+lWFoFipIQsLmyvfUGp7ENFnwroHsVoTKuBXlkTc59rz+gmye0rNxECu2sMbnZppoTmXXg3CPxx0iTzfXbaexVujeuSkua+x32NkHKyJfH++K5a73Ngi56439i1szLNDkW+7ja3Xpr5g4vIcv5OR7qjBqc5eNG3sf16U+1yvv/fbuz3twRPVxJR47MiUPVfaLqFoDtswtZ2mcscHpGco7RVnOZPRJMj2m/GJ6X7GJmnLAZUIPJxFKXpkosgUIpRShoK1nxMnmf+FzXaX/FbR9iVM/NlOdPCSni88a0euPNnTn2OeddZ/boNNBlT7uubyvCIVnr4NpAP/ZzSxHQK360vk4IrSFZvk4n7kyWqQ9eeLsbRELCYiWgyu//5Sb/OOX55OvScSuW9cm9mLeZUlaWhVeQp02L72f4U/S9GMsiTXapfzdLLaVZ4HaFcxf1X/R8l6ef1Zle8oCi33TYcPFA4fKBw+UDh8oHD4QOHwgcLhA4XDBwqHDxQOHygcPv++QskIvS6h+sosI8wG+p/WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAx/wEgLEkoIEFmrAAAAABJRU5ErkJggg==" />
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+      <div class="col-md-4">
+        <img src="https://www.glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-465-call@2x.png" style="height: 60px;width: 60px;"><h2>Call</h2></img>
+        <p>Ask Siri to make or take calls. </p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div>
+      <div class="col-md-4">
+        <img src="https://www.glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-11-envelope@2x.png" style="height: 60px; width: 60px;"><h2>Message</h2>
+        <p>Send messages to your contacts. </p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div>
+      <div class="col-md-4">
+        <img src="https://www.glyphicons.com/img/glyphicons/basic/2x/glyphicons-basic-6-car@2x.png" style="height: 60px;width: 60px;"><h2>Drive</h2>
+        <p>Drive safe.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div>
+    </div>
+
+    <hr>
+
+  </div> <!-- /container -->
+
+</main>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+      <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+      <script type="text/javascript">
+         function startDictation() {
+
+    if (window.hasOwnProperty('webkitSpeechRecognition')) {
+
+      var recognition = new webkitSpeechRecognition();
+
+      recognition.continuous = false;
+      recognition.interimResults = false;
+
+      recognition.lang = "en-US";
+      recognition.start();
+
+      recognition.onresult = function(e) {
+        document.getElementById('transcript').value
+                                 = e.results[0][0].transcript;
+        recognition.stop();
+        document.getElementById('labnol').submit();
+      };
+
+      recognition.onerror = function(e) {
+        recognition.stop();
+      }
+
+    }
+  }
+      </script>
+    </body>
+</html>
